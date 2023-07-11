@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+/* This is menu bar  */
+.menu-bar {
+    display: flex;
+    background-color: rgb(214, 241, 248);
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.Menu-title {
+    font-style: italic;
+    font-size: 40px;
+}
+
+span {
+    color: #E55473;
+}
+
+.menu-about {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 25px;
+}
+
+.menu-about>li:hover {
+    color: #E55473;
+    cursor: pointer;
+}
+
+/* This is menu home bar  */
+
+.menu-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.menu-primary {
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.pragraph {
+    color: rgba(39, 39, 39, 0.76);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.btn-primari {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #f33a62;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.btn-primari:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.menu-photo {
+    width: 350px;
+    height: 460px;
+}
+
+/* This box section cointenir  */
+.section-cointenir {
+    height: 4867px;
+}
+
+.section-tex {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.section-title {
+    padding: 10px;
+}
+
+.All-Flower-Box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Flower-Box {
+    width: 364px;
+    height: 438px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
+}
+
+.Flower {
+    height: 390px;
+    padding-top: 50px;
+}
+
+.Flower-Name {
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/* This is Delivary Section  */
+.contact-Box {
+    margin-top: 60px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-icon {
+    width: 40px;
+}
+
+/* This is Sign Up Section  */
+.Sign-up-contenir {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f77e98de;
+    margin-top: 50px;
+}
+
+.sign-up-box {
+    text-align: center;
+}
+
+.sign-up-title {
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* This is instagram Section  */
+.instagram-section {
+    text-align: center;
+    background: #33ff002d;
+    margin-top: 150px;
+}
+
+.instagram-image {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insta-img {
+    width: 250px;
+    height: 310px;
+    margin-bottom: 70px;
+    padding: 30px;
+}
+
+.section-title-1 {
+    padding: 20px;
+}
+
+/* This is Subscribe Box  */
+.subscribe-box {
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 8px;
+}
+
+.input-box{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
